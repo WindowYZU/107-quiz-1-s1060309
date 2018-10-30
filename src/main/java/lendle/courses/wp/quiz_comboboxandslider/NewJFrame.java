@@ -131,8 +131,9 @@ public class NewJFrame extends javax.swing.JFrame {
         slider.setMajorTickSpacing(20);
         slider.setPaintLabels(true);
         frame.add(slider);
-        for(int i=0; i<10;i++){
+        for(int i=0; i<comboBox.getItemCount();i++){
             slider=(JSlider) comboBox.getItemAt(i);
+            break;
             
                 
         }
